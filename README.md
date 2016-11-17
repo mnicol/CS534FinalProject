@@ -1,11 +1,14 @@
 # Partial Image Placement Software
 Final project for computational photography.
 
+<b>Description:</b>
 The project is a tool for selecting parts of one image and placing them in a second image. It also blends the placed image portion into the second image to make it look as natural as possible. Right now the plan is to use poisson blending to make the placement look natural.
+
+There are two papers about reigon selecting in the repo so thats why it is private.
 
 Here is a todo list of everything we need to get done. Feel free to break these up into smaller tasks if you want. If you are working on something denote it by your name and add your initial to the toto list item. For example I have (M) for one of the items.
 
-TODO:
+<b>TODO:</b>
 <br/>&nbsp;&nbsp;Research poisson blending and techniques for implementing it in mat lab
 <br/>&nbsp;&nbsp;Break up the steps for implementing poisson blending into managable parts
 <br/>&nbsp;&nbsp;Get a working poisson blending example
