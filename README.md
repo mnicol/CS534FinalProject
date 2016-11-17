@@ -1,4 +1,4 @@
-# CS536FinalProject
+# CS534FinalProject
 Final project for computational photography.
 
 The project is a tool for selecting parts of one image and placing them in a second image. It also blends the placed image portion into the second image to make it look as natural as possible. Right now the plan is to use poisson blending to make the placement look natural.
