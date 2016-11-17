@@ -1,3 +1,3 @@
 <LI><B>Matthew Nicol</B>, <B>Brad Miller</B> and <B>James Merrill</B><BR>
-<I>We Need a Name Still!</I><BR>
+<I>Partial Image Placement Software (P.I.P.S)</I><BR>
 The goal of our project is to be able to select part of an image and blend it into a second image. We will consider a few different approaches to select the area that will be moved. The first approach we will consider is lazy snapping. This technique involves selecting areas that you want moved and also areas that you do not want moved. A second approach we will consider is paint selection. In this technique the user selects the area by drawing over it. A final technique we will consider is drawing loops around the desired area. To blend the selected part into a new image we will use Poisson blending.
