@@ -1,0 +1,5 @@
+This guy's Poisson article is useful and tight as hell. Source code
+http://eric-yuan.me/poisson-blending/
+
+This is another Poisson project with source code included.
+http://www.ctralie.com/Teaching/PoissonImageEditing/
