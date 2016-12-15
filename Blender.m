@@ -1,3 +1,8 @@
+%This poisson blender was written with inspiration from:
+%http://eric-yuan.me/poisson-blending/
+%http://cs.brown.edu/courses/cs129/asgn/proj2/
+%https://github.com/asteroidhouse/gradient-blend
+
 function result = Blender(source, target, mask)
 %These calculations are going to use index form.
 %If the mask touches the edge, we're gonna have a bad time.
