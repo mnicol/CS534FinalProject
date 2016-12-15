@@ -1,12 +1,12 @@
 clear;
 %Get our Source
-Source = imread('testsource.jpg');
+Source = im2double(imread('source.jpg'));
 %Get our Target
-Target = imread('testtarget.jpg');
+Target = im2double(imread('target.jpg'));
 %Get our Mask
-Mask = imbinarize(rgb2gray(imread('testmask.jpg')));
+Mask = imbinarize(imread('mask.jpg'));
 %For some reason white is 0 and black is 1
-Mask = imcomplement(Mask);
+%Mask = imcomplement(Mask);
 %Calculate Blend
 result = Blender(Source, Target, Mask);
 result = result;
