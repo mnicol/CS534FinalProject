@@ -6,6 +6,8 @@
 function result = Blender(source, target, mask)
 %These calculations are going to use index form.
 %If the mask touches the edge, we're gonna have a bad time.
+source = im2double(source);
+target = im2double(target);
 
 [r, c, ~] = size(target);
 %These will be bigger, but we want them to behave as having one column.
