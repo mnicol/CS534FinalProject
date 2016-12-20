@@ -1,3 +1,4 @@
+
 %img1 = source image
 %img2 = target image
 %top, bottom, left, right = boundaries of selected object
@@ -8,6 +9,7 @@ function [ out ] = main( img1, img2, top, bottom, left, right, targetrow, target
 %   Detailed explanation goes here
     %img = imread('/Users/bradmiller/Documents/MATLAB/534_final/Fire-Hydrant-Installation-Schererville-IN-300x200.jpg');
     %img = imread('tiger.jpg');
+    
     [m,n,k] = size(img1);
     backgroundBox = zeros(m,n,k);
     for i=left:right
